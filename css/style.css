@@ -65,3 +65,57 @@ nav span a{
     width: 100%;
     padding-bottom: 20px;
 }
+/*------------------------------
+ features-gallery start
+ -------------------------------*/
+ .features-gallery{
+    margin: 0 250px;
+    margin-top: 30px;
+ }
+ .f-gallery-main{
+    display: flex;
+    align-items: center;
+ }
+ .gallery-teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+ }
+ .team-member img{
+     width: 200px;
+    height: 200px;
+    border-radius: 8px;
+ }
+ .gallery-text{
+    width: 100%;
+    margin-left: 40px;
+    padding-top: 50px;
+ }
+ .gallery-text h2{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+ }
+ .color-black{
+    color: black;
+ }
+ .color-orange{
+    color: #FF900E;
+ }
+ .gallery-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+ }
+ .gallery-text button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+ }
